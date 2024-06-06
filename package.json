@@ -1,0 +1,28 @@
+{
+  "name": "webtest",
+  "version": "1.0.0",
+  "description": "API para el monitoreo de Calderas",
+  "main": "src\\app.js",
+  "scripts": {
+    "start": "node src\\app.js",
+    "dev": "src\\app.js",
+    "test": "test\\index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marllaest022075/WebTest.git"
+  },
+  "author": "Marti Estrada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marllaest022075/WebTest/issues"
+  },
+  "homepage": "https://github.com/marllaest022075/WebTest#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
